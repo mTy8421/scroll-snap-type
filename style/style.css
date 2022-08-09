@@ -1,3 +1,7 @@
+body{
+    background-color: #41e2ba;
+}
+
 .conteudo{
     display: flex;
     width: 350px;
@@ -11,4 +15,7 @@
     padding: 30px;
     scroll-snap-align: start;
     border-radius: 30px;
+    
+    background-image: linear-gradient(0deg, rgba(232, 116, 97, 1) 0%, rgba(247, 25, 136, 1) 100%);
+    box-shadow: -2px 1px 6px 9px rgba(0, 0, 0, 0.1);
 }
